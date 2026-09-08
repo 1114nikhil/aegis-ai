@@ -1,0 +1,6 @@
+packages:
+  - "apps/*"
+  - "apps/frontend/*"
+  - "packages/*"
+  - "services/*"
+  - "ai/*"
