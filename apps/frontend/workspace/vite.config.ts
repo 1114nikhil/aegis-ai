@@ -15,6 +15,9 @@ export default defineConfig({
         "./App": "./src/App.tsx",
       },
 
+      dts: {
+        tsConfigPath: "./tsconfig.app.json",
+      },
       shared: {
         react: {
           singleton: true,

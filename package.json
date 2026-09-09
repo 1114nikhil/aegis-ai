@@ -1,23 +1,19 @@
 {
   "name": "aegis-ai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.3.4",
-      "onFail": "download"
-    }
-  },
+  "private": true,
+  "description": "Aegis AI - Production-grade AI learning and engineering platform",
+  "license": "UNLICENSED",
   "packageManager": "pnpm@12.3.4",
   "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean"
+  },
   "devDependencies": {
     "turbo": "^2.10.12"
   }
